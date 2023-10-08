@@ -67,17 +67,7 @@ const Search = () => {
 							// Enterprise card is full width at sm breakpoint
 							<Grid item key={album.id} xs={12} md={4}>
 								<Card className={classes.card}>
-									<Link
-										color="textPrimary"
-										href={'album/' + album.id}
-										className={classes.link}
-									>
-										<CardMedia
-											className={classes.cardMedia}
-											image="https://source.unsplash.com/random"
-											title="Image title"
-										/>
-									</Link>
+									
 									<CardContent className={classes.cardContent}>
 										<Typography
 											gutterBottom

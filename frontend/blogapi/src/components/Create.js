@@ -131,7 +131,7 @@ export default function Create() {
 								required
 								fullWidth
 								id="ranking"
-								label="Ranking"
+								label="Rank"
 								name="ranking"
 								autoComplete="ranking"
 								onChange={handleChange}

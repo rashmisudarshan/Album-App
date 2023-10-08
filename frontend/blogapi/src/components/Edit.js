@@ -141,7 +141,7 @@ export default function Create() {
 								value={formData.average_rating}
 								onChange={handleChange}
 								type="number"
-								error
+								
 								
 							/>
 						</Grid>
@@ -151,8 +151,8 @@ export default function Create() {
 								required
 								fullWidth
 								id="ranking"
-								label="Ranking"
-								error
+								label="Rank"
+								
 								name="ranking"
 								autoComplete="ranking"
 								value={formData.ranking}
