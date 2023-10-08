@@ -1,0 +1,18 @@
+{% extends "master.html" %}
+
+{% block title %}
+  Details about {{ album.album }} {{ album.artist }}
+{% endblock %}
+
+
+{% block content %}
+  <h1>{{ album.album }} - {{ album.artist }}</h1>
+  
+  <p>Ranking: {{album.ranking}}</p>
+  <p>Genre: {{ album.genre }}</p>
+  <p>Average Rating: {{ album.average_rating }}</p>
+  <p>Release Date: {{ album.release_date }}</p>
+  
+  <p>Back to <a href="/albums">Album List</a></p>
+  
+{% endblock %}
