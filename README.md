@@ -8,7 +8,11 @@ Prerequisites:
 
 Instructions to install Django dependencies:
 
-    If you are using Visual Studio Code, this can be done automatically from the requirements.txt file by clicking the "create environment" button and then activating the environment.
+If you are using Visual Studio Code, this can be done automatically from the requirements.txt file by clicking the "create environment" button and then activating the environment.
+
+![Screenshot from 2023-10-08 10-30-02](https://github.com/rashmisudarshan/Album-App/assets/62276702/bfd598d6-52df-4621-be37-69b96f9913a5)
+
+    
 
     Else follow these steps:
 
