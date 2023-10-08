@@ -19,12 +19,14 @@ Instructions to install Django dependencies:
         5) Run pip install -r requirements.txt
 
 To start the server:
+
     1) cd Album-App
     2) source .venv/bin/activate
     3) cd Project1/music_app
     4) python manage.py runserver
 
 Instructions to install Node dependencies and start the frontend:
+
     1) cd Album-App/frontend/blogapi
     2) npm install --legacy-peer-deps
     3) npm start
